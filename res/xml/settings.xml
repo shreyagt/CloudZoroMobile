@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <EditTextPreference android:positiveButtonText="Ok" android:negativeButtonText="Cancel" android:dialogTitle="Server Settings" android:dialogMessage="Enter Ip Address" android:key="address" android:title="Server Settings" android:summary="Server Ip Address"/>
+    <EditTextPreference android:title="Gmail Login Settings" android:summary="Enter Gmail Username without @gmail.com" android:dialogTitle="Login Settings" android:key="username" android:negativeButtonText="Cancel" android:positiveButtonText="Ok" android:dialogMessage="Enter Gmail Address"/>
+     <EditTextPreference android:title="Gmail Password Setting" android:summary="Enter Password of the Gmail Account" android:dialogTitle="Login Settings" android:key="password" android:negativeButtonText="Cancel" android:positiveButtonText="Ok" android:dialogMessage="Enter Gmail Password"/>
+    
+
+</PreferenceScreen>
